@@ -195,40 +195,14 @@ ul {
 .hero-section {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero-bg-m.jpg);
+  background-image: url(../images/hero-bg.png),
+    url(../images/hero-bg-m@2x.jpg)
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   @media screen and (min-width: 768px) {
     background-image: unset;
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(../images/dark-hero-bg.png),
-      url(../images/hero-bg-m@2x.jpg),
-      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
-  }
-
-  @media screen and (min-width: 768px) {
-    padding: 112px 0;
-    background-image: url(../images/dark-hero-bg.png),
-      url(../images/hero-bg-t.jpg),
-      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
-
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(../images/dark-hero-bg.png),
-        url(../images/hero-bg-t@2x.jpg),
-        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
-    }
   }
 
   @media screen and (min-width: 1158px) {
@@ -497,11 +471,6 @@ ul {
     display: block;
   }
 }
-.image-item {
-  @media screen and (min-width: 1158px) {
-    width: calc((100% - 72px) / 3);
-  }
-}
 
 .section-title {
   /* display: flex;
@@ -566,7 +535,11 @@ ul {
   border: 1px solid var(--cornflower, #e7e9fc);
   background: url(<path-to-image>),
     lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
+  @media screen and (min-width: 1158px) {
+    width: calc((100% - 72px) / 3);
+  }
 }
+
 .section-grey {
   background: var(--CLOUD, #f4f4fd);
 }
@@ -1514,15 +1487,12 @@ menu-icon {
   }
 }
 .logo-web {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.03em;
-  color: var(--cloud, #f4f4fd);
-  display: block;
-  margin-bottom: 20px;
-  text-align: center;
+  padding: 24px 0;
 
   @media screen and (min-width: 768px) {
     text-align: left;
