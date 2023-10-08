@@ -978,6 +978,10 @@ ul {
   text-transform: uppercase;
 }
 
+.footer-logo-wrapper {
+  text-align: center;
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 24px;
@@ -990,6 +994,7 @@ ul {
   }
 
   @media screen and (min-width: 1158px) {
+    text-wrap: nowrap;
     text-align: left;
   }
 }
@@ -1010,7 +1015,7 @@ ul {
 }
 
 .footer-socials {
-  margin-left: 120px;
+  /* margin-left: 120px; */
 }
 
 .footer-socials-text {
@@ -1470,7 +1475,7 @@ ul {
   width: 453px;
   height: 80px;
   flex-shrink: 0;
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 .footer-form_label {
   color: var(--white, #fff);
