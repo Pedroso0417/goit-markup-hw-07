@@ -19,7 +19,7 @@
   </head>
   <body>
   <header class="header">
-    <div class="container header-container">
+  <div class="container header-container">
     <nav class="header-navigation">
        <a href="./index.html" class="logo-web link">
       <span class="logo-studio-white">WEB</span><span class="studio-header">STUDIO</span>
@@ -36,29 +36,18 @@
         </li>
       </ul>
     </nav>
-     <address class="header-address">
-          <ul class="header-address-list list">
-            <li class="header-address-item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="header-address-link link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="header-address-item">
-              <a
-                href="tel:+110001111111"
-                class="header-address-link link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-        <button
+  <address class="header-address">
+    <ul class="hero-address list">
+      <li class="header-address-item">
+        <a href="mailto:info@devstudio.com"
+         class="header-address-link link" target="_blank"
+                rel="noopener noreferrer" >info@devstudio.com</a>
+      </li>
+      <li class="header-address-item">
+        <a class="header-address-link link" href="tel+110001111111">+11 (000) 111-11-11</a>
+      </li>
+    </ul>
+    <button
           class="menu-toggle js-open-menu"
           aria-expanded="false"
           aria-controls="mobile-menu"
@@ -176,7 +165,7 @@
                 </svg>
               </div>
        <h3 class="meaning-title">Strategy</h3>
-       <p class="meaning-bottom-text">Our goal is to identify the business<br> problem to walk away with the<br> perfect and creative solution</p>
+       <p class="meaning-bottom-text"> Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
       </li>
       <li class="meaning-item">
         <div class="benefits-svg-box">
@@ -185,7 +174,7 @@
                 </svg>
               </div>
        <h3 class="meaning-title text">Punctuality</h3>
-       <p class="meaning-bottom-text ">Bring the key message to the<br>  brand's audience for the best price<br> within the shortest possible time.</p>
+       <p class="meaning-bottom-text ">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
       </li>
       <li class="meaning-item">
         <div class="benefits-svg-box">
@@ -194,7 +183,7 @@
                 </svg>
                 </div>
        <h3 class="meaning-title text">Diligence</h3>
-       <p class="meaning-bottom-text ">Research and confirm brands that<br> present the strongest digital growth<br>opportunities and minimize risk.</p>
+       <p class="meaning-bottom-text ">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
     </li>
     <li class="meaning-item">
        <div class="benefits-svg-box">
@@ -203,7 +192,7 @@
                 </svg>
               </div>
     <h3 class="meaning-title text">Technologies</h3>
-    <p class="meaning-bottom-text ">Design practice focused on digital <br> experiences. We bring forth a deep <br> passion for problem-solving.</p>
+    <p class="meaning-bottom-text ">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
     </li>
    </ul>
    </div>
@@ -212,36 +201,24 @@
      <div class="container">
     <h2 class="section-title">What Are We Doing</h2>
     <ul class="what-we-do list">
-    <li class="what-we-do-item"> 
-       <img
-                srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x"
-                src="./images/img1.jpg"
-                alt="monitor"
-                width="360"
-                height="300"
-              />
-            </li>
-            <li class="what-we-do-item">
-              <img
-                srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x"
-                src="./images/img2.jpg"
-                alt="cellphone"
-                width="360"
-                height="300"
-              />
-            </li>
-            <li class="what-we-do-item">
-              <img
-                srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x"
-                src="./images/img3.jpg"
-                alt="monitor-cellphone"
-                width="360"
-                height="300"
-              />
-            </li>
-          </ul>
-        </div>
-      </section>
+    <li class="what-we-do-item">
+      <img 
+      srcset="./images/img 1.jpg 1x, ./images/img 1 @2x.jpg 2x"
+       src="./images/img 1.jpg" width="360" alt="monitor"/>
+    </li>
+    <li class="what-we-do-item">
+      <img
+      srcset="./images/img 2.jpg 1x, ./images/img 2 @2x.jpg 2x"
+      src="./images/img 2.jpg" width="360" alt="cellphone"/>
+    </li>
+    <li class="what-we-do-item">
+      <img 
+      srcset="./images/img 3.jpg 1x, ./images/img 3 @2x.jpg 2x"
+      src="./images/img 3.jpg" width="360" alt="monitor-cellphone"/>
+    </li>
+    </ul>
+    </div>
+   </section>
 <section class="section section-grey">
   <div class="container
   ">
@@ -249,9 +226,10 @@
     <!-- Inside each <li>, there are some picture -->
         <ul class="team-list list">
             <li class="team-item">
-                <img srcset="./images/team1.jpg 1x,
-                /images/team1@2x.jpg 2x"
-                src="./images/team1.jpg" alt="Mark Guerrero" width="264">
+                <img 
+                class="team-image"
+                srcset="./images/team1.jpg 1x, ./images/team1@2x.jpg 2x"
+                 src="./images/team1.jpg" alt="Mark Guerrero" width="264">
                 <div class="section-item-wrap">
            <h3 class="team-title">Mark Guerrero</h3>
      <p class="team-position">Product Designer</p>
@@ -309,9 +287,10 @@
             </li>
 
             <li class="team-item">
-              <img srcset="./images/team2.jpg 1x,
-                ./images/team2@2x.jpg 2x"
-               src="./images/team2.jpg" alt="Tom Ford" width="264px">
+              <img
+              class="team-image"
+                srcset="./images/team2.jpg 1x, ./images/team2@2x.jpg 2x"
+              src="./images/team2.jpg" alt="Tom Ford" width="264px">
               <div class="section-item-wrap">
             <h3 class="team-title">Tom Ford</h3>
             <p class="team-position">Frontend Developer</p>
@@ -369,9 +348,10 @@
             </li>
 
             <li class="team-item">
-              <img srcset="./images/team3.jpg 1x,
-                ./images/team3@2x.jpg 2x"
-               src="./images/team3.jpg" alt="Camila Garcia" width="264">
+              <img
+              class="team-image"
+                srcset="./images/team3.jpg 1x, ./images/team3@2x.jpg 2x"
+              src="./images/team3.jpg" alt="Camila Garcia" width="264">
             <div class="section-item-wrap">
             <h3 class="team-title">Camila Garcia</h3>
             <p class="team-position">Marketing</p>
@@ -429,9 +409,10 @@
             </li>
 
             <li class="team-item">
-              <img srcset="./images/team4.jpg 1x,
-                ./images/team4@2x.jpg 2x"
-               src="./images/team4.jpg" alt="Daniel Wilson" width="264">
+              <img
+              class="team-image"
+                srcset="./images/team4.jpg 1x, ./images/team4@2x.jpg 2x"
+              src="./images/team4.jpg" alt="Daniel Wilson" width="264">
               <div class="section-item-wrap">
             <h3 class="team-title">Daniel Wilson</h3>
             <p class="team-position">UI Designer</p>
@@ -548,13 +529,15 @@
     <footer class="footer">
      <div class="footer-container container">
        <div class="footer-logo-wrapper list">
-        <!-- <li class="footer-item"> -->
        <a href="./index.html" class="logo-web link">
       <span class="logo-studio-web">WEB</span><span class="studio">STUDIO</span></a>
-      <p class="footer-text text">Increase the flow of customers and <br>sales for your business with
-      digital</br>marketing & growth solutions.
-     </p>
-     <!-- </li> -->
+      <p class="footer-text text">
+               Increase the flow of customers and
+      </br>
+            sales for your business with digital
+    </br>
+            marketing & growth solutions.
+            </p>
       </div>
      <div class="footer-socials">
           <p class="footer-socials-text text">Social media</p>
@@ -677,7 +660,6 @@
        
     </div>
     <script src="./js/modal.js"></script>
-    <!-- HAMBURGER MENU SCRIPT -->
-    <script src="js/mobile-menu.js"></script>
+     <script src="./js/mobile-menu.js"></script>
  </body>
 </html>
