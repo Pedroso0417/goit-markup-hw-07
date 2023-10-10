@@ -447,6 +447,10 @@ ul {
   fill: currentColor;
 }
 
+.is-open {
+  left: -100%;
+}
+
 .menu-container {
   display: flex;
   flex-direction: column;
